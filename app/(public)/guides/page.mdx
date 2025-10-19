@@ -1,0 +1,64 @@
+import { Card, CardHeader, CardTitle, CardContent } from '@/src/components/ui/card';
+import { Button } from '@/src/components/ui/button';
+
+export const metadata = {
+  title: 'Guides import/export — Zinga.io'
+};
+
+# Guides pratiques Zinga.io
+
+Bienvenue dans l’espace de formation Zinga. Retrouvez les fondamentaux pour lancer vos opérations import/export avec succès.
+
+<Card className="my-6 border-primary/20">
+  <CardHeader>
+    <CardTitle>1. Sélectionner un produit gagnant</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <ul className="list-disc space-y-2 pl-6 text-slate-600">
+      <li>Analysez la demande via les flux Comtrade et Google Trends.</li>
+      <li>Vérifiez la concurrence directe et la différenciation possible.</li>
+      <li>Contrôlez la conformité (marquage CE, fiches techniques).</li>
+    </ul>
+  </CardContent>
+</Card>
+
+<Card className="my-6 border-primary/20">
+  <CardHeader>
+    <CardTitle>2. Évaluer un fournisseur</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <ul className="list-disc space-y-2 pl-6 text-slate-600">
+      <li>Validation TVA via VIES et vérification d’ancienneté.</li>
+      <li>Audit d’usine : certifications ISO, audits sociaux.</li>
+      <li>Conditions de paiement sécurisées (LC, escrow, assurance).</li>
+    </ul>
+  </CardContent>
+</Card>
+
+<Card className="my-6 border-primary/20">
+  <CardHeader>
+    <CardTitle>3. Calculer ses coûts</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <p className="text-slate-600">
+      Utilisez le simulateur Zinga pour intégrer les taux de change, les droits de douane (TARIC) et les frais logistiques. Exportez
+      vos scénarios en PDF ou CSV pour partager avec vos partenaires financiers.
+    </p>
+  </CardContent>
+</Card>
+
+<Card className="my-6 border-primary/20">
+  <CardHeader>
+    <CardTitle>4. Suivre les tendances</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <p className="text-slate-600">
+      Automatisez vos alertes Comtrade et météo portuaire pour anticiper les ruptures. Ajoutez vos produits favoris au dashboard
+      pour suivre leurs indicateurs clés.
+    </p>
+  </CardContent>
+</Card>
+
+<Button asChild className="mt-8">
+  <a href="/contact">Contacter un expert Zinga</a>
+</Button>
